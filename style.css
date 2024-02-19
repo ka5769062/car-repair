@@ -1,0 +1,84 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+}
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000000;
+  height: 60px;
+  padding: 10px;
+}
+
+.gf {
+  background-color: #d1e3ff;
+}
+
+.top a {
+  text-decoration: none;
+  color: white;
+}
+
+.mainnavbar a {
+  color: blue;
+}
+
+.kam :hover a {
+  color: blue;
+}
+
+.hero {
+  /* display: flex; */
+  /* align-items: center; */
+  background-color: #d1e3ff;
+  /* width: 100%; */
+  /* height: 80vh; */
+}
+
+.child1 {
+  /* display: flex; */
+  /* justify-content: center; */
+  align-items: center;
+  /* width: 50%;  */
+  flex-wrap: wrap;
+}
+/* 
+.dani {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* .dani img{
+   width: 100%;
+   height: 10%;
+} */
+
+.dani button {
+  border: none;
+  padding: 12px;
+  width: 185px;
+  background-color: #ff8a1d;
+  border-radius: 5px;
+  color: white;
+}
+
+.dani button:hover {
+  background-color: #d1e3ff;
+  color: #ff8a1d;
+  border: 1px solid #ff8a1d;
+}
+
+.child1 h1 {
+  /* display: flex; */
+  /* align-items: center; */
+  font-weight: bolder;
+  color: #0355cc;
+}
+
+/* .child2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
